@@ -65,7 +65,7 @@ It demonstrates modern QA automation practices including:
 - Invalid Login
 - Logout Functionality
 
-  [Login Test Scenarios](blob/main/test-scenarios/LoginTests.md)
+  [Login Test Scenarios](test-scenarios/LoginTests.md)
 
 ### 🛍️ Product Features
 - Product Selection
