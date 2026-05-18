@@ -62,8 +62,11 @@ It demonstrates modern QA automation practices including:
 
 ### 🔐 Authentication
 - Valid Login
-- Invalid Login
-- Logout Functionality
+- Empty Username
+- Empty Password
+- Incorrect Username
+- Incorrect Password
+- Locked User
 
   [Login Test Scenarios](test-scenarios/LoginTests.md)
 
