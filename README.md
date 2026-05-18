@@ -74,7 +74,7 @@ It demonstrates modern QA automation practices including:
 - Displaying Products
 - Products Sorting
   
-  [Products Poage Test Scenarios](test-scenarios/ProductPageTests.md)
+  [Products Page Test Scenarios](test-scenarios/ProductPageTests.md)
 
 ### 💳 Checkout Process
 - Checkout Validation
