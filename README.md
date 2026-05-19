@@ -70,10 +70,11 @@ It demonstrates modern QA automation practices including:
 
   [Login Test Scenarios](test-scenarios/LoginTests.md)
 
-### 🛍️ Product Features
-- Product Selection
-- Add to Cart
-- Remove from Cart
+### 🛍️ Products Page Features
+- Displaying Products
+- Products Sorting
+  
+  [Products Page Test Scenarios](test-scenarios/ProductPageTests.md)
 
 ### 💳 Checkout Process
 - Checkout Validation
