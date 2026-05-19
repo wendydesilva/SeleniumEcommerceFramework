@@ -80,6 +80,7 @@ It demonstrates modern QA automation practices including:
 - Adding Items
 - Removing Items
 - Cart Verification
+ [Cart Functionality Test Scenarios](test-scenarios/CartModuleTests.md)
 
 ---
 
