@@ -76,10 +76,12 @@ It demonstrates modern QA automation practices including:
   
   [Products Page Test Scenarios](test-scenarios/ProductPageTests.md)
 
-### 💳 Checkout Process
-- Checkout Validation
-- Order Confirmation
+### 🛒 Cart Functionality
+- Adding Items
+- Removing Items
 - Cart Verification
+  
+ [Cart Functionality Test Scenarios](test-scenarios/CartModuleTests.md)
 
 ---
 
