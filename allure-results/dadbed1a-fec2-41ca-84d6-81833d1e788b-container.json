@@ -1,0 +1,1 @@
+{"uuid":"dadbed1a-fec2-41ca-84d6-81833d1e788b","name":"base.BaseTest.setup","children":["e3c8d0fd-dabe-4cdc-8608-667ada6ac897"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1779157221362,"stop":1779157224049}],"afters":[],"start":1779157221362,"stop":1779157224049}

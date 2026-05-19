@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Automation Suite</th></tr>
+<tr><td><a href="#t0">Selenium Tests</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">40,696</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Selenium Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">tests.CartTest</td><td><a href="#m0">addMultipleItems_TC_CART_02</a></td><td rowspan="1">1779157234996</td><td rowspan="1">973</td></tr><tr class="failedeven"><td><a href="#m1">cartBadgeCount_TC_CART_04</a></td><td rowspan="1">1779157241110</td><td rowspan="1">556</td></tr><tr class="failedeven"><td><a href="#m2">removeItem_TC_CART_03</a></td><td rowspan="1">1779157243660</td><td rowspan="1">814</td></tr><tr><th colspan="4">Selenium Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.CartTest</td><td><a href="#m3">addSingleItem_TC_CART_01</a></td><td rowspan="1">1779157238301</td><td rowspan="1">598</td></tr><tr class="passedodd"><td rowspan="6">tests.LoginTest</td><td><a href="#m4">emptyPasswordTest_TC03</a></td><td rowspan="1">1779157210247</td><td rowspan="1">657</td></tr><tr class="passedodd"><td><a href="#m5">emptyUsernameTest_TC02</a></td><td rowspan="1">1779157215985</td><td rowspan="1">870</td></tr><tr class="passedodd"><td><a href="#m6">incorrectPasswordTest_TC05</a></td><td rowspan="1">1779157219648</td><td rowspan="1">1146</td></tr><tr class="passedodd"><td><a href="#m7">incorrectUserNameTest_TC04</a></td><td rowspan="1">1779157224067</td><td rowspan="1">1250</td></tr><tr class="passedodd"><td><a href="#m8">lockedUserTest_TC06</a></td><td rowspan="1">1779157228312</td><td rowspan="1">1310</td></tr><tr class="passedodd"><td><a href="#m9">validLoginTest_TC01</a></td><td rowspan="1">1779157231917</td><td rowspan="1">603</td></tr></tbody>
+</table>
+<h2>Selenium Tests</h2><h3 id="m0">tests.CartTest#addMultipleItems_TC_CART_02</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Multiple items not added correctly expected [2] but found [1]
+	at tests.CartTest.addMultipleItems_TC_CART_02(CartTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.CartTest#cartBadgeCount_TC_CART_04</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Cart badge count is incorrect expected [2] but found [1]
+	at tests.CartTest.cartBadgeCount_TC_CART_04(CartTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.CartTest#removeItem_TC_CART_03</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Item was not removed expected [0] but found [1]
+	at tests.CartTest.removeItem_TC_CART_03(CartTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.CartTest#addSingleItem_TC_CART_01</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.LoginTest#emptyPasswordTest_TC03</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.LoginTest#emptyUsernameTest_TC02</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.LoginTest#incorrectPasswordTest_TC05</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.LoginTest#incorrectUserNameTest_TC04</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.LoginTest#lockedUserTest_TC06</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.LoginTest#validLoginTest_TC01</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
