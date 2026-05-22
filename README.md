@@ -83,6 +83,9 @@ It demonstrates modern QA automation practices including:
 - Valid Checkout
 - Possible Invalid Checkouts
 
+ [Checkout Functionality Test Scenarios](test-scenarios/CheckOutModuleTests.md)
+
+
 ---
 
 # ⚙️ Prerequisites
