@@ -49,8 +49,6 @@ It demonstrates modern QA automation practices including:
 🔥 Reusable Utility Classes  
 🔥 Scalable Folder Structure  
 🔥 Cross-Browser Ready Design  
-🔥 Screenshot Capture on Test Failure  
-🔥 Detailed HTML Reports  
 🔥 Easy Test Maintenance  
 🔥 Beginner-Friendly Structure
 
@@ -80,6 +78,10 @@ It demonstrates modern QA automation practices including:
 - Cart Verification
   
  [Cart Functionality Test Scenarios](test-scenarios/CartModuleTests.md)
+
+ ### 💳 Checkout Functionality
+- Valid Checkout
+- Possible Invalid Checkouts
 
 ---
 
@@ -125,28 +127,7 @@ mvn clean install
 mvn test
 ```
 
-Or execute the `testng.xml` file directly from the IDE.
 
----
-
-# 📊 Reports & Screenshots
-
-## 📁 Test Reports
-
-Generated reports can be found inside:
-
-```plaintext
-/test-output
-/reports
-```
-
-## 📸 Failure Screenshots
-
-Captured screenshots are stored inside:
-
-```plaintext
-/screenshots
-```
 
 ---
 
@@ -163,11 +144,9 @@ Captured screenshots are stored inside:
 
 - Jenkins CI/CD Integration
 - Selenium Grid Support
-- Parallel Execution
-- Docker Integration
 - API Testing Integration
 - Allure Reports
-- GitHub Actions CI Pipeline
+
 
 ---
 
