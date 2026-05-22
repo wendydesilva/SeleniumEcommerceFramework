@@ -23,10 +23,8 @@ It demonstrates modern QA automation practices including:
 
 ✅ Page Object Model (POM)  
 ✅ Reusable Utilities  
-✅ TestNG Execution  
-✅ Automated Reporting  
+✅ TestNG Execution   
 ✅ Scalable Framework Structure  
-✅ Screenshot Capture on Failures  
 ✅ Clean & Maintainable Code
 
 ---
